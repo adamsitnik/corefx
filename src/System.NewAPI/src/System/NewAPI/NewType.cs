@@ -2,11 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.IO.Pipes
+namespace System.NewAPI
 {
-    public enum PipeTransmissionMode
+    public class NewType
     {
-        Byte = 0,
-        Message = 1,
+        public void NewMethod()
+        {
+        }
     }
 }

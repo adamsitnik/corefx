@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{D293A0E4-AE6C-4DF7-99AE-CC1A37BF4918}</ProjectGuid>
+    <AssemblyName>System.NewAPI</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <OmitTransitiveCompileReferences>true</OmitTransitiveCompileReferences>
+    <Configurations>netcoreapp-Unix-Debug;netcoreapp-Unix-Release;netcoreapp-Windows_NT-Debug;netcoreapp-Windows_NT-Release;uap-Windows_NT-Debug;uap-Windows_NT-Release</Configurations>
+  </PropertyGroup>
+  <!-- Compiled Source Files -->
+  <ItemGroup>
+    <Compile Include="System\NewAPI\NewType.cs" />
+  </ItemGroup>
+</Project>
