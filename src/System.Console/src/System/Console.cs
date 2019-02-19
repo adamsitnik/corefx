@@ -673,6 +673,11 @@ namespace System
         {
             Out.Write(value);
         }
+        
+        public static void  WriteHelloWorld()
+        {
+            WriteLine("Hello World!");
+        }
 
         internal static bool HandleBreakEvent(ConsoleSpecialKey controlKey)
         {

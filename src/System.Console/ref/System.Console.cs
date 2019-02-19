@@ -99,6 +99,7 @@ namespace System
         public static void WriteLine(uint value) { }
         [System.CLSCompliantAttribute(false)]
         public static void WriteLine(ulong value) { }
+        public static void WriteHelloWorld() { }
     }
     public sealed partial class ConsoleCancelEventArgs : System.EventArgs
     {
