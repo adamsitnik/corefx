@@ -6,4 +6,7 @@
   <ItemGroup>
     <Compile Include="System.NewAPI.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\System.Runtime\ref\System.Runtime.csproj" />
+  </ItemGroup>
 </Project>
